@@ -24,10 +24,12 @@ html {
   width: 100%;
 }
 
-.banner {
-
+body {
+  position: relative;
 }
 
 .banner-content {
-
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
