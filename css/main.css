@@ -24,12 +24,17 @@ html {
   width: 100%;
 }
 
-body {
+.banner {
   position: relative;
 }
 
 .banner-content {
   position: absolute;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  bottom: 0em;
+  width: 95%;
+  color: #fff;
+  text-align: center;
 }
